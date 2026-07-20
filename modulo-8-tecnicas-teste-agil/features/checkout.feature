@@ -8,6 +8,7 @@ Funcionalidade: Cadastro no checkout
     Dado que eu esteja na tela de cadastro do checkout
 
   Cenário: Identificar os campos obrigatórios do cadastro
+    Quando eu visualizar o formulário de cadastro do checkout
     Então todos os campos obrigatórios devem estar marcados com asterisco
 
   Esquema do Cenário: Concluir cadastro conforme o preenchimento dos dados obrigatórios e do e-mail
